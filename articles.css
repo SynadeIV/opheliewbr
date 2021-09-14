@@ -4,10 +4,20 @@ html, body {
   padding: 0;
 }
 
+.center-title {
+  text-align: center;
+}
+
+.center-title img {
+  width: 50px;
+  margin-bottom: -10px;
+  padding-top: 20px;
+}
+
 #nav {
 	padding: 0; margin: 0;
 	text-align: center; /* centrer le texte */
-	background-color: #333;
+	background-color: #231942;
     overflow: hidden;
 }
 #nav li {
@@ -28,8 +38,7 @@ html, body {
 }
 
 .active {
-    background-color: pink;
-    color: red;
+  background-color: pink;
 } 
 
 /* TEXT */
@@ -40,6 +49,17 @@ html, body {
 .midsection {
   margin: 0 auto;
   width: 1080px; 
+}
+
+.midsection a {
+  color: #231942;
+  text-decoration: none;
+}
+
+.midsection h2 {
+  background-color: #5e548e49;
+  padding: 5px;
+  border-radius: 8px;
 }
 
 /* IMG */
